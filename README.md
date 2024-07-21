@@ -106,7 +106,7 @@ This project demonstrates how to set up a simple Go web application, integrate B
 1. **Add Repository Variables:**
    - In Bitbucket, navigate to **Repository settings** > **Repository variables**.
    - Add the following variables:
-     - `USERNAME`: Your GitHub username (e.g., `osherachamim`).
+     - `USERNAME`: Your GitHub username (e.g., `your-user-name`).
      - `REPO`: The name of your GitHub repository (e.g., `go-hello-world-pipeline`).
      - `GITHUB_TOKEN`: Your GitHub personal access token. 
 
