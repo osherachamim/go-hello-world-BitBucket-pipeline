@@ -9,7 +9,7 @@ pipelines:
   default:
     - parallel:
       - step:
-          name: Build
+          name: &build-app
           script:
             # Build compiles the packages
             - go build hello-world.go
@@ -20,8 +20,5 @@ pipelines:
             - golangci-lint run -v
   branches:
     main:
-      - step:
-          name: Deploy to Server
-          script:
-            - go build hello-world.go
-         
+      # Use * for alias
+      - step: *build-app
