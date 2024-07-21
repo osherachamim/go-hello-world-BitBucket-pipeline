@@ -18,3 +18,10 @@ pipelines:
           image: golangci/golangci-lint:v1.31.0
           script:
             - golangci-lint run -v
+  branches:
+    main:
+      - step:
+          name: Deploy to Server
+          script:
+            - go build hello-world.go
+         
