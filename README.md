@@ -22,6 +22,15 @@ This project demonstrates how to set up a simple Go web application, integrate B
    - Provide a repository name (e.g., `go-hello-world-pipeline`).
    - Choose the project created in the previous step.
    - Click **Create repository**.
+  
+    **Create a GitHub Personal Access Token:**
+   - Go to your GitHub account settings.
+   - Navigate to **Developer settings** > **Personal access tokens**.
+   - Click on **Generate new token**.
+   - Provide a note for the token (e.g., "Bitbucket Pipeline Token").
+   - Select the `repo` scope to grant the token write permissions.
+   - Generate the token and copy it for later use.
+     
 ### 2. Setup Go Hello World WebApp
 
 1. **Create a Go WebApp:**
