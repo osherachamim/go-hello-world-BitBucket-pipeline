@@ -24,7 +24,7 @@ pipelines:
             - git config --global user.email "osher@bitbucket.com"
             - git config --global user.name "Osher"
             - git init
-            - git remote add origin https://${USERNAME}:${GITHUB_TOKEN}@github.com/${USERNAME}/${REPO}.git
+            - if git remote | grep -q 'origin'; then git remote set-url origin https://${USERNAME}:${GITHUB_TOKEN}@github.com/${USERNAME}/${REPO}.git; else git remote add origin https://${USERNAME}:${GITHUB_TOKEN}@github.com/${USERNAME}/${REPO}.git; fi
             - git add .
             - git commit -m "Automated commit from Bitbucket pipeline"
             - git push -u origin main
