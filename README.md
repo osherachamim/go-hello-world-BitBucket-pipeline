@@ -23,7 +23,7 @@ This project demonstrates how to set up a simple Go web application, integrate B
    - Choose the project created in the previous step.
    - Click **Create repository**.
   
-    **Create a GitHub Personal Access Token:**
+3. **Create a GitHub Personal Access Token:**
    - Go to your GitHub account settings.
    - Navigate to **Developer settings** > **Personal access tokens**.
    - Click on **Generate new token**.
