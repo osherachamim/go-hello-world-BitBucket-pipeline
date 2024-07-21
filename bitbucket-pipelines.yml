@@ -20,4 +20,5 @@ pipelines:
             - golangci-lint run -v
   branches:
     main:
+      # Use * for alias
       - step: *build-app
