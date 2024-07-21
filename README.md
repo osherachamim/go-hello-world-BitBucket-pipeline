@@ -22,25 +22,7 @@ This project demonstrates how to set up a simple Go web application, integrate B
    - Provide a repository name (e.g., `go-hello-world-pipeline`).
    - Choose the project created in the previous step.
    - Click **Create repository**.
-
-3. **Create a `main` Branch:**
-   - Clone the repository to your local machine.
-   - Create a `main` branch if it does not exist:
-     ```sh
-     git checkout -b main
-     git push -u origin main
-     ```
-
-### 2. Create a GitHub Repository
-
-1. **Create a GitHub Repository:**
-   - Log in to your GitHub account.
-   - Click on the **+** icon in the top-right corner and select **New repository**.
-   - Provide a repository name (e.g., `go-hello-world-pipeline`).
-   - Set the repository to public or private as needed.
-   - Click **Create repository**.
-
-### 3. Setup Go Hello World WebApp
+### 2. Setup Go Hello World WebApp
 
 1. **Create a Go WebApp:**
    - Create a file named `hello-world.go` in your local repository with the following content:
@@ -61,6 +43,17 @@ This project demonstrates how to set up a simple Go web application, integrate B
          http.ListenAndServe(":8080", nil)
      }
      ```
+
+### 3. Create a GitHub Repository
+
+1. **Create a GitHub Repository:**
+   - Log in to your GitHub account.
+   - Click on the **+** icon in the top-right corner and select **New repository**.
+   - Provide a repository name (e.g., `go-hello-world-pipeline`).
+   - Set the repository to public or private as needed.
+   - Click **Create repository**.
+
+
 
 ### 4. Configure Bitbucket Pipeline
 
