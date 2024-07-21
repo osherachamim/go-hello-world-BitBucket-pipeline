@@ -21,4 +21,7 @@ pipelines:
   branches:
     main:
       # Use * for alias
-      - step: *build-app
+      - step:
+          name: Deploy to Server
+          script:
+            - go build hello-world.go
