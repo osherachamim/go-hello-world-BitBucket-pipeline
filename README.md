@@ -138,5 +138,3 @@ Feel free to explore and modify the project to suit your learning needs!
 This project is licensed under the MIT License.
 
 ---
-
-Happy coding!
